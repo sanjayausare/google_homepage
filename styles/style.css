@@ -138,9 +138,36 @@ footer a:hover{
     float: right;
 }
 @media  (max-width:600px){
+    main{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+    }
+    #logo{
+        align-self: center;
+        width:50%;
+        padding-bottom: 2%;
+    }
+    #search-bar{
+        position: relative;
+        right: 50%;
+        width: 200%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul{
+        align-self:center ;
+    }
+    footer span{
+        justify-self: flex-start;
+    }
 
 }
 
-@media (max-height: 400px){
-
-}
+@media (max-height: 500px){
+        main{
+            margin-bottom: 20%;
+        }
+    }
