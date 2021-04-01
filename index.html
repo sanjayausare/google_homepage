@@ -5,39 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <header>
+        <nav id="nav-bar">
         <ul>
-            <li>Gmail</li>
-            <li>Images</li>
-            <li><a href="#"><img id="gapps" src="" alt="Google Apps"></a></li>
-            <li><a href="#"><img src="" alt=""><img id="profile-pic" src="" alt="Google Account"></a></li>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#"><span class="material-icons">apps</span></a></li>
+            <li><a href="#"><span class="material-icons">account_circle</span></a></li>
         </ul>
+    </nav>
     </header>
     <main>
-        <img src="#" alt="Google Logo">
-        <form action="">
-            <input type="text" name=search id="search">
+        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <form action="#">
+            <div id="search-bar">
+            <span class="material-icons" id="search-icon">search</span>
+            <input type="text" name=search id="search"><br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/712px-Google_mic.svg.png" alt="Mic img" id="mic-icon">
+            </div>
             <button class="buttons">Google Search</button>
             <button class="buttons">I'm Feeling Lucky</button>
         </form>
     </main>
-    <section class="bottom">
+    <footer>
         <span>India</span>
-    </section>
-    <footer class="bottom">
         <ul id="left">
-            <li><a href="">About</a></li>
-            <li><a href="">Advertising</a></li>
-            <li><a href="">Business</a></li>
-            <li><a href="">How Search Works</a></li>
+            <li ><a href="">About</a></li>
+            <li ><a href="">Advertising</a></li>
+            <li ><a href="">Business</a></li>
+            <li ><a href="">How Search Works</a></li>
         </ul>
-        <ul id="right">
-            <li><a href="">Privacy</a></li>
-            <li><a href="">Terms</a></li>
-            <li><a href="">Settings</a></li>
+        <ul id="right">    
+            <li ><a href="">Privacy</a></li>
+            <li ><a href="">Terms</a></li>
+            <li ><a href="">Settings</a></li>
         </ul>
     </footer>
 </body>
